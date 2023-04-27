@@ -1,0 +1,85 @@
+{
+    "//main email address the program will read from": "",
+    "Email Address": "",
+
+    "//main emails password": "",
+    "Password": "",
+
+    "//this variable determines if an email data JSON file is created": "",
+    "makeJSON": true,
+
+    "//determines if we send info to service now": "",
+    "sendToSN" : true,
+
+
+    "//service now instance account information": "",
+    "USE_SERVICE": true,
+    "SNInstance": "",
+    "SNUsername": "",
+    "SNPassword": "",
+    "//OAuth User ID": "",
+    "client_id": "",
+    "//OAuth Secret": "",
+    "client_secret": "",
+    "//OAuth URLs": "",
+    "access_token_url": "",
+    "authorize_url": "",
+    "redirect_url": "",
+
+    "//SFTP login information": "",
+    "SFTPServer": "",
+    "SFTPUsername": "",
+    "SFTPPassword": "",
+
+    "//determines if a log file is created with internal statistics": "",
+    "makeLogFile": true,
+
+    "//determines if email is moved to trash folder after creating ticket": "",
+    "deleteEmails": false,
+    "//set password for the zip attachment": "",
+    "zip_pass": "",
+    "//array that contains all of the values the user wants to include into the json file.": "",
+    "//the left side is left alone and the right side is able to be changed to make the variable whatever you want.":"",
+    "//if you do not want to include a section, simply put two quotation marks with nothing inside of them and the program will remove it ":"",
+
+
+    "Subject": "Subject",
+    "Forwarded From": "Forwarded from",
+    "From":  "From",
+    "Date": "Date",
+    "message-id": "Message Id",
+    "Body": "Email body",
+    "Hashs" : "Hash code",
+    "Links" : "Link list",
+    "Domains" : "Domain list",
+    "Threatsim" : "Threatsim",
+
+    "//syslog server": "",
+    "Syslog server" : true,
+    "the hostname or IP address of the remote syslog server":"",
+    "Host" : "",
+    "A port is a communication endpoint on a computer network.":"",
+    "Port" : 0,
+
+
+
+
+    "Virus_total_api": "",
+
+
+
+
+
+
+
+
+
+
+    "# FTP set up": "",
+    "USE_FTP" : false,
+    "FTP_HOST" : "",
+    "FTP_USER" : "",
+    "FTP_PASS" : "",
+    "local_file_path" : "attachments",
+    "remote_file_path" : ""
+}
